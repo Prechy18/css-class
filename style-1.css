@@ -1,0 +1,3117 @@
+body {
+
+  /* The CSS background properties are used to add background effects for elements. */
+  /* background-color: lightblue; */
+  background-image: url(../images/obi.png);
+  background-attachment:scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+
+  /* background: red, no-repeat, cover; */
+}
+
+
+#obi{
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+
+.navbar{
+  background-color: black;
+  padding: 14px 6px;
+}
+
+.navbar a{
+  color:white;
+  padding: 14px 6px;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  background-color: orangered;
+  color: black;
+}
+
+
+/* CSS Layout - The position Property */
+/* position: static; */
+div.static {
+  position: static;
+  border: 3px solid #73AD21;
+}
+
+/* position: relative */
+div.relative {
+  position:relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+}
+
+/* position: fixed */
+div.fixed {
+  position:fixed;
+  left: 30px;
+  border: 3px solid #73AD21;
+}
+
+/* position: sticky */
+div.sticky {
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+
+
+
+/* Here, all <p> elements on the page will be center-aligned, with a red text color:  */
+p {
+    text-align: center;
+    color: red;
+  }
+
+
+/* Opacity / Transparency */
+/* div {
+    background-color: green;
+    opacity: 0.3;
+} */
+
+
+/* CSS Borders Style*/
+
+
+p.dotted{
+  border-style: dotted;
+}
+
+p.dashed {
+    border-style: dashed;
+}
+p.solid {
+    border-style: solid;
+}
+p.double {
+    border-style: double;
+}
+p.groove {
+    border-style: groove;
+}
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+p.outset {
+    border-style: outset;
+}
+p.none {
+    border-style: none;
+}
+p.hidden {
+    border-style: hidden;
+}
+
+
+p.mix {
+    border-style: dotted dashed solid double;
+}
+
+
+
+/* Border Property Color */
+
+p.one {
+    border-style: solid;
+    border-color: red;
+  }
+  
+  p.two {
+    border-style: solid;
+    border-color: green;
+  } 
+  
+  p.three {
+    border-style: dotted;
+    border-color: blue;
+  } 
+
+  p.four {
+    border-style: groove;
+    border-color: yellow;
+  } 
+
+
+
+
+
+
+
+
+        /* Border Sides */
+  div.one{
+    border-bottom-style: dotted;
+  }
+  div.two{
+    border-top-style: dotted;
+  }
+
+  div.three{
+    border-right-style: solid;
+  }
+
+  div.four{
+    border-left-style: solid;
+  }
+  
+  
+
+
+
+
+
+  
+  
+  /* Border Shorthand */
+  .aptech{
+    border: 5px solid red;
+  }
+
+
+
+
+
+
+
+
+
+  /* CSS Rounded */
+
+p.normal {
+  border: 2px solid red;
+  padding: 5px;
+}
+
+p.round1 {
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+p.round2 {
+  border: 2px solid red;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+
+p.round3 {
+  border: 2px solid red;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+
+
+
+               /* CSS Margins */
+
+.margin{
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px; 
+    background-color: lightblue;
+  }
+
+          
+  
+  
+
+
+
+  
+  
+  /* CSS Margin Shorthand */
+  .margin-shorthand{
+    margin: 25px 50px 75px 100px;
+    border: 2px solid red;
+    background-color: yellow;
+  }
+
+
+                       /* CSS Padding */
+  .div {
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+
+
+
+   /* CSS Padding Shorthand */
+
+   .padding-shorthand {
+    border: 1px solid black;
+    padding: 25px 50px 75px 100px;
+    background-color: lightblue;
+  }
+
+
+  
+
+
+
+   /* CSS Height/Width */
+  .HeightWidth{
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+  }
+
+
+
+
+
+
+  
+
+  /* Demonstrating the Box Model */
+
+  .box{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+
+  
+  
+  
+  
+  
+  
+  /* Calculate the total width: */
+  .b {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+  }
+
+
+
+
+
+  
+/* CSS OUTLINE */
+p {
+  outline-color:red;
+}
+
+p.dot {
+  outline-style: dotted;
+}
+
+p.dash {
+  outline-style: dashed;
+}
+p.sol {
+  outline-style: solid;
+}
+p.doub {
+  outline-style: double;
+}
+p.gro {
+  outline-style: groove;
+}
+p.rid {
+  outline-style: ridge;
+}
+p.in {
+  outline-style:  inset;
+}
+p.out {
+  outline-style: outset;
+}
+
+
+
+/* CSS WIDTH OUTLINE */
+
+p.width1 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thin;
+}
+
+p.width2 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: medium;
+}
+
+p.width3 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thick;
+}
+
+p.width4 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: 4px;
+}
+
+
+
+ /* CSS Outline-Color Property */
+
+p.color1 {
+  border: 2px solid black;
+  outline-style: solid;
+  outline-color: red;
+}
+
+p.color2 {
+  border: 2px solid black;
+  outline-style: dotted;
+  outline-color: blue;
+}
+
+p.color3 {
+  border: 2px solid black;
+  outline-style: outset;
+  outline-color: grey;
+}
+
+
+/* CSS Outline-Shorthand Property */
+
+p.shorthand1 {
+  outline: dashed;
+}
+p.shorthand2 {
+  outline: dotted red;
+}
+p.shorthand3 {
+  outline: 5px solid yellow;
+}
+p.shorthand4 {
+  outline: thick ridge pink;
+}
+
+
+
+/* CSS Outline-Offset Property */
+p.offset {
+  margin: 30px;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 15px;
+}
+
+
+
+
+
+
+
+
+/* CSS Text-Formatting Properties */
+
+/* CSS Text Color */
+
+div.text1 {
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+h1.text2 {
+  text-align:center;
+  text-transform:lowercase;
+  color: #4CAF50;
+}
+
+p.text3 {
+  text-indent: 3px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+a.text4 {
+  text-decoration:none;
+  color: #008CBA;
+}
+
+
+ /* CSS Text-Formatting Properties
+ CSS Text Alignment */
+
+h1.align1 {
+  text-align: center;
+}
+
+h2.align2 {
+  text-align: left;
+}
+
+h3.align3 {
+  text-align: right;
+}
+
+h4.align4 {
+  text-align: justify;
+}
+
+
+
+/* CSS Text-Formatting Properties
+ CSS Text Decoration */
+
+
+h1.decoration1 {
+  text-decoration: overline;
+}
+
+h2.decoration2 {
+  text-decoration: line-through;
+}
+
+h3.decoration3 {
+  text-decoration: underline wavy;
+}
+
+h4.decoration4 {
+  text-decoration: overline underline;
+}
+
+
+
+
+
+
+
+/* CSS Text-Formatting Properties */
+/* CSS Text Indentation */
+
+p.indent{
+  text-indent: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS Text-Formatting Properties */
+/* Using line-height */
+
+p.small {
+  line-height: 0.7;
+}
+
+p.big{
+  line-height: 2;
+}
+
+
+
+
+
+
+/* CSS Text-Formatting Properties */
+/* Using word-spacing */
+
+p.one {
+  word-spacing: 10px;
+}
+
+p.two {
+  word-spacing: -2px;
+}
+
+
+
+ 
+
+
+/* CSS Text-Formatting Properties */
+/* Using white-spacing */
+
+p.white-space {
+  white-space:50px;
+  border: 2px solid red;
+}
+
+
+
+
+
+
+
+
+/* CSS Text-Formatting Properties */
+/* Using text-shadow */
+
+h1.shadow {
+  text-shadow: 2px 2px red;
+}
+
+h1.shadow2 {
+  text-shadow: 2px 2px 5px greenyellow;
+}
+
+
+
+
+
+/* CSS Text Fonts */
+.p1 {
+  font-family: Courier;
+}
+
+.p2 {
+  font-family: Arial;
+}
+
+.p3 {
+  font-family: Lucida;
+}
+
+
+
+
+
+
+/* CSS Links */
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+/* CSS list-style-type Property*/
+ul.a {
+  list-style-type: circle;
+}
+
+ul.bb {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+
+
+
+
+
+
+
+/*  CSS Layout - The display Property */
+span {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* This is a visible heading and hidden heading*/
+h1.hidden {
+  display: none;
+}
+
+
+
+
+
+
+/* visibility:hidden; also hides an element */
+h1.hidden1 {
+  visibility:hidden;
+}
+
+
+
+
+
+/* CSS Layout - width and max-width */
+
+div.ex1 {
+  width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+
+div.ex2 {
+  max-width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+
+
+
+
+
+.prime{
+  z-index:-1;
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+
+
+
+
+
+
+
+
+
+
+#overflowTest {
+  background: #4CAF50;
+  color: white;
+  padding: 15px;
+  width: 50%;
+  height: 100px;
+  overflow: scroll;
+  border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+/* The float Property */
+
+.img {
+  float:right;
+}
+
+
+
+
+
+
+
+
+/* CSS Layout - display: inline-block */
+span.a {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
+}
+
+span.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
+}
+
+span.c {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
+}
+
+
+
+
+
+
+/* Using inline-block to Create 
+Navigation Links */
+
+.nav {
+  background-color: yellow; 
+  left: 4px;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+
+
+
+/* Center Align Elements */
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+/* center Text*/
+section.center {
+  text-align:center;
+  border: 3px solid green;
+}
+
+/* center image */
+.hp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* CSS Combinators  */
+/* Descendant Selector */
+.descendant p{
+  background-color: yellow;
+}
+
+
+
+
+
+/* CSS Combinators  */
+/* Child Selector (>) */
+.phone > p {
+  background-color: yellow;
+}
+
+
+
+
+
+
+/* CSS Combinators  */
+/* Adjacent Sibling Selector */
+div.adj  + p {
+  background-color: yellow;
+}
+
+
+
+
+
+
+/* CSS Combinators  */
+/* General Sibling Selector */
+.box ~ p {
+  background-color: yellow;
+}
+
+
+
+
+
+
+
+/* Anchor Pseudo-classes */
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+/* Pseudo-classes and HTML Classes */
+.highlight:hover {
+  color: #ff0000;
+  font-size: 22px;
+} 
+
+
+
+
+
+
+
+/* :hover pseudo-class on a <div> 
+element */
+.obi {
+  background-color: green;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+.obi:hover {
+  background-color: blue;
+}
+
+
+
+
+
+
+/* Simple Tooltip Hover */
+.tooltip p {
+  display: none;
+  background-color: yellow;
+  padding: 20px;
+}
+
+.tooltip:hover p {
+  display: block;
+}
+
+
+
+
+
+/* CSS - The :first-child Pseudo-class */
+p:first-child {
+  color: blue;
+} 
+
+
+
+
+
+/* CSS Pseudo-elements */
+
+.line::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Pseudo-elements first letter */
+.first::first-letter {
+  color: #ff0000;
+  font-size: 200%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pseudo-elements and HTML Classes */
+.element::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+
+
+
+
+
+
+/* Multiple Pseudo-elements */
+.multiple::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+.multiple::first-line {
+  color: #0000ff;
+  font-variant: small-caps;
+}
+
+
+
+
+
+
+/* CSS - The ::before Pseudo-element */
+.before::before {
+  content: url(smiley.gif);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CSS - The ::after Pseudo-element */
+.after::after {
+  content: url(smiley.gif);
+}
+
+
+
+
+
+
+
+
+
+/* CSS - The ::marker Pseudo-element */
+::marker { 
+  color: red;
+  font-size: 23px;
+}
+
+
+
+
+
+
+
+/* Transparent Image */
+.image{
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Transparent Hover Effect */
+.img {
+  opacity: 0.5;
+}
+
+.img:hover {
+  opacity: 1.0;
+}
+
+
+
+
+
+
+/* Text in Transparent Box */
+div.background {
+  background: url(klematis.jpg) no-repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+/* CSS Image Gallery */
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  /* float: left; */
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+
+/* CSS Attribute Selector */
+/* Styling Forms */
+
+input[type=text] {
+  width: 150px;
+  display: block;
+  margin-bottom: 10px;
+  background-color: yellow;
+}
+
+input[type=button] {
+  width: 120px;
+  margin-left: 35px;
+  display: block;
+}
+
+::placeholder{
+  color:red;
+}
+
+
+
+/* CSS Form */
+
+.input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input[type=submit] {
+  width: 100%;
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input[type=submit]:hover {
+  background-color: rgb(223, 138, 138);
+}
+
+.divide {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+/* Styling Input Fields width */
+.form {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Padded Inputs */
+.label[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+/* Bordered Inputs */
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px dotted red;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+/* Input fields with bottom border */
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+
+
+
+
+/* Focused Inputs */
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+
+
+
+/* Input field with an icon inside */
+
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+
+
+
+/* Animate width of search input */
+
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('search.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+
+/* Styling textarea */
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+
+
+
+
+
+
+
+/* Styling Select Menus */
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+
+
+
+
+
+
+
+/* Responsive Form */
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less 
+than 600px wide, make the two columns stack
+ on top of each other instead of next to each 
+ other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+/* CSS Website Layout */
+/* Responsive Website Layout */
+
+* {
+  box-sizing: border-box;
+} 
+
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to 
+each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 
+800px wide, make the two columns stack on top of
+ each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 
+400px wide, make the navigation links stack on 
+top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+
+/* CSS Lenght measurement using pixel Unit */
+/* CSS pixels Unit*/
+.px {
+  font-size: 60px;
+}
+
+.px1 {
+  font-size: 25px;
+  line-height: 50px;
+}
+
+
+/* CSS centimeter Unit*/
+
+h1 .cm {
+  font-size: 1.5cm;
+}
+h2 .cm2{
+  font-size: 1cm;
+}
+p .cm3{
+  font-size: 0.5cm;
+  line-height: 1cm;
+}
+
+
+/* CSS millimeters Unit */
+
+h1 .mm{font-size: 15mm;}
+h2 .mm2{font-size: 10mm;}
+p .mm3{
+  font-size: 5mm;
+  line-height: 10mm;
+}
+
+/* CSS em Unit*/
+h1 .em{
+  font-size: 16em;
+  line-height: 2em;
+}
+
+h2 .em2{
+  font-size: 30em;
+  border: 1em solid black;
+}
+
+p .em3{
+  font-size: 0.5em;
+}
+
+
+/* CSS inches Unit*/
+h1 {font-size: 1in;}
+h2 {font-size: 0.5in;}
+p {
+  font-size: 0.2in;
+  line-height: 0.5in;
+}
+
+
+
+/* CSS pecentage % Unit*/
+
+p .per {
+  font-size:16%;
+ }
+ 
+ div .percent{
+   font-size: 100%;
+   border: 1px solid black;
+ }
+
+
+
+/* CSS Viewport Height Vh Unit*/
+
+ h1 .vh{
+  font-size: 20vh;
+}
+
+
+
+
+
+
+
+/* CSS Specificity */
+/* Example 1 */
+
+.test {color: green;}
+p {color: red;}
+
+
+
+
+
+/* CSS Specificity */
+/* Example 2 */
+
+#demo {color: blue;}
+.test {color: green;}
+p {color: red;}
+
+
+
+
+
+
+/* CSS Specificity */
+/* Example 3 */
+
+#demo {color: blue;}
+.test {color: green;} 
+p {color: red;} 
+
+
+
+
+
+
+/* CSS The !important Rule */
+
+#myid {
+  background-color: blue;
+}
+
+.myclass {
+  background-color: gray;
+}
+
+p {
+  background-color: red !important;
+}
+
+
+
+/* Advanced CSS */
+
+/* CSS Rounded Corners */
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #0000ff;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #ff0000;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+
+#rcorners3 {
+  border-radius: 25px;
+  background: url(paper.gif);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+
+
+
+/* CSS Multiple Backgrounds */
+
+#example1 {
+  background-image: url(img_flwr.gif), url(paper.gif);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS Colors */
+/* RGBA- Red, Green, Blue and Alpha */
+
+#p1 {background-color:rgba(255,0,0,0.3);}
+#p2 {background-color:rgba(0,255,0,0.3);}
+#p3 {background-color:rgba(0,0,255,0.3);}
+#p4 {background-color:rgba(192,192,192,0.3);}
+#p5 {background-color:rgba(255,255,0,0.3);}
+#p6 {background-color:rgba(255,0,255,0.3);}
+
+
+
+/* CSS Colors */
+/* Define Colors With Opacity */
+
+#c1 {background-color:rgb(255,0,0); opacity:0.6;}
+#c2 {background-color:rgb(0,255,0); opacity:0.6;}
+#c3 {background-color:rgb(0,0,255); opacity:0.6;}
+#c4 {background-color:rgb(192,192,192);opacity:0.6;}
+#c5 {background-color:rgb(255,255,0); opacity:0.6;}
+#c6 {background-color:rgb(255,0,255); opacity:0.6;}
+
+
+
+
+
+
+
+/* CSS Colors */
+
+/* Hue Saturation and Lightness */
+
+#d1 {background-color:hsl(210,100%,0%);}
+#d2 {background-color:hsl(120, 24%, 24%);}
+#d3 {background-color:hsl(120,100%,25%);}
+#d4 {background-color:hsl(120,60%,70%);}
+#d5 {background-color:hsl(290,100%,50%);}
+#d6 {background-color:hsl(290,60%,70%);}
+
+
+
+
+
+
+
+
+/* CSS Colors */
+
+/* Hue, Saturation, Lightness and Alpha*/
+
+#e1 {background-color:hsla(240, 50%, 50%, 1.0);}
+#e2 {background-color:hsla(120,100%,75%,0.3);}
+#e3 {background-color:hsla(120,100%,25%,0.3);}
+#e4 {background-color:hsla(120,60%,70%,0.3);}
+#e5 {background-color:hsla(290,100%,50%,0.3);}
+#e6 {background-color:hsla(290,60%,70%,0.3);}
+
+
+
+
+
+/* CSS Color Keywords */
+/* The transparent Keyword */
+
+div.ex1 { 
+  background-color: lightgreen;
+  border: 2px solid black;
+  padding: 15px;
+}
+
+div.ex2 { 
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 15px;
+} 
+
+
+
+
+
+/* CSS Color Keywords */
+/* The currentcolor Keyword */
+.currentcolor {
+  color: blue;
+  border: 10px solid currentcolor;
+  padding: 15px;  
+}
+
+
+
+
+
+
+
+
+
+/* CSS Color Keywords */
+/* The inherit Keyword */
+
+.obi1 {
+  border: 2px solid red;
+}
+
+span {
+  border: inherit;
+}
+
+
+
+
+
+/* Linear Gradient - Top to Bottom */
+
+#grad1 {
+  height: 200px;
+  background-color: red; /* 
+  For browsers that do not support 
+  gradients */
+  background-image: 
+  linear-gradient(red, yellow);
+}
+
+
+
+
+
+
+
+/* Linear Gradient - Left to Right */
+
+#grad2 {
+  height: 200px;
+  background-color: red; 
+  /* For browsers that do not support 
+  gradients */
+  background-image: 
+    linear-gradient(to right, red , yellow);
+}
+
+
+
+
+
+
+
+/* Linear Gradient - Diagonal */
+
+#grad3 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: 
+  linear-gradient(to bottom right, red, yellow);
+}
+
+
+
+
+
+
+
+/* Linear Gradients - Using Different Angles */
+
+#g1 {
+  height: 100px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(0deg, red,
+   yellow);
+}
+
+#g2 {
+  height: 100px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(90deg, red,
+   yellow);
+}
+
+#g3 {
+  height: 100px;
+  background-color: red; /* For browsers that do 
+  not support gradients */
+  background-image: linear-gradient(180deg, red,
+   yellow);
+}
+
+#g4 {
+  height: 100px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(-90deg, red, 
+  yellow);
+}
+
+
+/* Linear Gradients - Multiple Color Stops */
+
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do 
+  not support gradients */
+  background-image: linear-gradient(red,
+   rgba(255, 255, 0, 0.08),green);
+}
+
+#grad2 {
+  height: 200px;
+  background-color: red; /* For browsers that do 
+  not support gradients */
+  background-image: linear-gradient(red, orange,
+   yellow, green, blue, indigo, violet);
+}
+
+#grad3 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red 10%,
+   green 85%, blue 90%);
+}
+
+
+
+
+
+/* Rainbow Background */
+
+#grad1 {
+  height: 55px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red,
+   orange, yellow, green, blue, indigo, 
+   violet);
+}
+
+
+
+
+
+
+
+/* Linear Gradient - Transparency */
+
+#grad1 {
+  height: 200px;
+  background-image: linear-gradient(to right,
+   rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+
+
+
+
+
+
+
+
+
+/* Repeating Linear Gradient */
+
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do 
+  not support gradients */
+  background-image: repeating-linear-gradient(red,
+   yellow 10%, green 20%);
+}
+
+#grad2 {
+  height: 200px;
+  background-color: red; /* For browsers that do 
+  not support gradients */
+  background-image: repeating-linear-gradient(45deg,
+  red,yellow 7%,green 10%);
+}
+
+#grad3 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: repeating-linear-gradient(190deg,
+  red,yellow 7%,green 10%);
+}
+
+#grad4 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: repeating-linear-gradient(90deg,
+  red,yellow 7%,green 10%);
+}
+
+#grad5 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: repeating-linear-gradient(45deg, 
+  red 0px, red 10px, red 10px, yellow 10px,
+   yellow 20px);
+}
+
+
+
+/* CSS Radial Gradients -  Evenly Spaced Color Stops*/
+
+#grad1 {
+  height: 150px;
+  width: 200px;
+  background-color: red;
+   /* For browsers that do not support
+    gradients */
+  background-image: 
+  radial-gradient(red, yellow,
+   green);
+}
+
+
+
+
+
+
+
+
+/* CSS Radial Gradients - Differently 
+Spaced Color Stops */
+
+#grad1 {
+  height: 150px;
+  width: 200px;
+  background-color: red; 
+  /* For browsers that do not support
+   gradients */
+  background-image:
+   radial-gradient(red 5%,
+    yellow 15%, green 60%);
+}
+
+
+
+
+
+
+
+
+/* Radial Gradient - Shapes */
+
+#grad1 {
+  height: 150px;
+  width: 200px;
+  background-color: red; /* For 
+  browsers that do not support 
+  gradients */
+  background-image: 
+  radial-gradient(red, yellow, 
+  green);
+}
+
+#grad2 {
+  height: 150px;
+  width: 200px;
+  background-color: red; 
+  /* For browsers that do not support 
+  gradients */
+  background-image: 
+  radial-gradient(circle, rgb(19, 14, 14), 
+  yellow, green);
+}
+
+
+/* Radial Gradients - Different size 
+keywords */
+
+#grad1 {
+  height: 150px;
+  width: 150px;
+  background-color: red; 
+  /* For browsers that do not support 
+  gradients */
+  background-image: 
+  radial-gradient(closest-side at 
+  60% 55%, red, yellow, black);
+}
+
+#grad2 {
+  height: 150px;
+  width: 150px;
+  background-color: red; 
+  /* For browsers that do not support
+   gradients */
+  background-image: 
+  radial-gradient(farthest-side at 
+  60% 55%, red, yellow, black);
+}
+
+#grad3 {
+  height: 150px;
+  width: 150px;
+  background-color: red; 
+  /* For browsers that do not support 
+  gradients */
+  background-image: 
+  radial-gradient(closest-corner at 
+  60% 55%, red, yellow, black);
+}
+
+#grad4 {
+  height: 150px;
+  width: 150px;
+  background-color: red; 
+  /* For browsers that do not support 
+  gradients */
+  background-image: 
+  radial-gradient(farthest-corner at 
+  60% 55%, red, yellow, black);
+}
+
+
+
+/* Repeating Radial Gradient */
+
+#grad1 {
+  height: 150px;
+  width: 200px;
+  background-color: red; 
+  /* For browsers that do not support 
+  gradients */
+  background-image: 
+  repeating-radial-gradient(red, 
+  yellow 10%, green 15%);
+}
+
+
+
+
+
+/* CSS Conic Gradients of Three colors*/
+
+#gr1 {
+  height: 200px;
+  width: 200px;
+  background-color: red; /* For browsers that do
+   not support gradients */
+  background-image: conic-gradient(red, yellow,
+   green);
+}
+
+/* Conic Gradient: Five Colors */
+
+#gr2 {
+  height: 200px;
+  width: 200px;
+  background-color: red; 
+  /* For browsers that do not support 
+  gradients */
+  background-image: 
+  conic-gradient(red, yellow,
+   green, blue, black);
+}
+
+
+
+
+
+
+
+/* Conic Gradient - Defined degree for
+ each color */
+
+#grad1 {
+  height: 200px;
+  width: 200px;
+  background-color: red; 
+  /* For browsers that do not support 
+  gradients */
+  background-image: 
+  conic-gradient(red 45deg, yellow
+   90deg, green 210deg);
+}
+
+
+
+
+
+/* Conic Gradient - Pie Chart */
+
+#pie {
+  height: 200px;
+  width: 200px;
+  background-color: red; 
+  /* For browsers that do not support
+   gradients */
+  background-image: conic-gradient(red, yellow, green, blue,
+   black);
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+/* Conic Gradient pie chart with 
+defined degrees for all the colors */
+
+#chart {
+  height: 200px;
+  width: 200px;
+  background-color: red; 
+  /* For browsers that do not support 
+  gradients */
+  background-image: 
+  conic-gradient(red 0deg, 
+  red 90deg, yellow 90deg,
+   yellow 180deg, green 180deg,
+    green 270deg, blue 270deg);
+  border-radius: 50%;
+}
+
+
+/* CSS Shadow Effects */
+
+h1 {
+  text-shadow: 2px 2px;
+}
+
+/* First Text-shadow effect! */
+.First {
+  text-shadow: 2px 2px red;
+}
+
+/* Second Text-shadow effect! */
+.Second {
+  text-shadow: 2px 2px 5px red;
+}
+
+
+/* Third Text-shadow effect! */
+.Third {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+
+
+
+
+/* CSS box-shadow Property */
+
+.box-shadow {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color: coral;
+  box-shadow: 10px 10px;
+}
+
+/* Specify a Color for the Shadow */
+.lightblue-box-shadow{  
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color: coral;
+  box-shadow: 10px 10px lightblue;
+}
+
+
+
+/* Add a Blur Effect to the 
+Shadow */
+.blur{
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color: coral;
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+
+/* Set the Spread Radius of 
+the Shadow */
+.spread-radius {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color: coral;
+  box-shadow: 10px 10px 5px
+   12px lightblue;
+}
+
+
+
+
+
+
+
+/* Add Multiple Shadows */
+#example1 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px blue,
+   10px 10px red, 15px 15px green;
+  margin: 20px;
+}
+
+#example2 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 8px
+   blue, 10px 10px 8px
+  red, 15px 15px 8px green;
+  margin: 20px;
+}
+
+
+/* Create Polaroid Images */
+
+.polaroid {
+  width: 250px;
+  box-shadow: 0 4px 8px 0
+   rgba(0, 0, 0, 0.2), 
+   0 6px 20px 0 rgba(0, 0, 
+   0, 0.19);
+  text-align: center;
+}
+
+div.container {
+  padding: 10px;
+}
+
+
+
+
+
+/* CSS Text Overflow */
+
+p.test1 {
+  white-space: nowrap; 
+  width: 200px; 
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+p.test2 {
+  white-space: nowrap; 
+  width: 200px; 
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+
+
+
+/* CSS Word Wrapping */
+p.wrapping {
+  width: 11em; 
+  border: 1px solid #000000;
+  word-wrap: break-word;
+}
+
+
+
+
+
+
+
+/* CSS Word Breaking */
+
+p.Breaking1 {
+  width: 140px; 
+  border: 1px solid #000000;
+  word-break: keep-all;
+}
+
+p.Breaking2 {
+  width: 140px; 
+  border: 1px solid #000000;
+  word-break: break-all;
+}
+
+
+/* CSS Writing Mode */
+p.Writing1 {
+  writing-mode: horizontal-tb; 
+}
+
+span.test2 {
+  writing-mode: vertical-rl; 
+}
+
+p.Writing2 {
+  writing-mode: vertical-rl; 
+}
+
+
+
+/* CSS Web Fonts */
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+
+* {
+  font-family: myFirstFont;
+}
+
+
+
+
+
+
+
+
+/* Using Bold Font */
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_bold.woff);
+  font-weight: bold;
+}
+
+* {
+  font-family: myFirstFont;
+}
+
+
+
+
+
+
+
+/* The translate() Method */
+.translate{
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: translate(50px,
+  100px);
+}
+
+
+
+
+/* The rotate() Method */
+div {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+div#myDiv {
+  transform: rotate(20deg);
+}
+
+
+
+/* CSS 2D Transforms */
+/* The scale() Method */
+
+div {
+  margin: 150px;
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: scale(2,3);
+  
+}
+
+
+
+
+
+/* CSS 2D Transforms  */
+/* The scaleX() Method  */
+
+.scaleX {
+  margin: 150px;
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: scaleX(2);
+}
+
+
+
+
+
+/* CSS 2D Transforms  */
+/* The scaleY() Method */
+
+.scaleY {
+  margin: 150px;
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: scaleY(3);
+}
+
+
+
+
+
+
+
+
+
+/* The skewX() Method */
+.div  {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.skewX {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: skewX(20deg);
+}
+
+
+
+
+
+/* The skewY() Method */
+
+.normal {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.skewY{
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: skewY(50deg);
+}
+
+
+
+
+
+
+
+/* The skew() Method */
+
+.normal1 {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.skew {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: skew(20deg,10deg);
+}
+
+
+
+
+
+
+
+/* The matrix() Method */
+
+.matrix {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.matrix1 {
+  transform: matrix(1, -0.3, 0, 1, 0, 0);
+} 
+
+.matrix2 {
+  transform: matrix(1, 0, 0.5, 1, 150, 0);
+}
+
+
+/* CSS 3D Transforms */
+/* The rotateX() Method */
+
+.normal2 {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+.rotateX {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: rotateX(150deg);
+}
+
+
+
+
+
+/* The rotateY() Method */
+
+.normal3 {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.rotateY {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: rotateY(150deg);
+}
+
+
+
+
+
+/* The rotateZ() Method */
+
+.normal4 {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.rotateZ {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: rotateZ(90deg);
+}
+
+
+
+/* CSS Transitions */
+.aptech {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 3s;
+  transition-delay: 1s;
+}
+
+.aptech:hover {
+  width: 300px;
+}
+
+
+
+/* 
+Adding Transition to Width and 
+  Height CSS Properties */
+
+.tech {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 4s;
+}
+
+.tech:hover {
+  width: 300px;
+  height: 300px;
+}
+
+
+/* The transition-delay 
+property */
+
+.go {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 4s;
+  transition-delay: 2s;
+}
+
+.go:hover {
+  width: 300px;
+}
+
+
+/* transition-timing-function */
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+#div1 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+  transition-timing-function: linear;
+}
+
+#div1:hover{
+  width:300px;
+}
+
+#div2 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+  transition-timing-function: ease;
+}
+
+#div2:hover{
+  width:300px;
+}
+
+#div3 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+  transition-timing-function: ease-in;
+}
+
+#div3:hover{
+  width:300px;
+}
+
+#div4 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+  transition-timing-function: ease-out;
+}
+
+#div4:hover{
+  width:300px;
+}
+
+#div5 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+  transition-timing-function: ease-in-out;
+}
+
+#div5:hover {
+  width: 300px;
+}
+
+
+/* Transition + Transform */
+
+.TT {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, 
+  height 2s, transform 2s;
+}
+
+.TT:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+
+
+
+
+/* The transition Properties 
+Specified One by One */
+
+.one {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+
+.one:hover {
+  width: 300px;
+}
+
+
+
+/* CSS Animation */
+/* The @keyframes Rule */
+
+.animation{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color:
+     red;}
+  to {background-color:
+     yellow;}
+}
+
+
+/* CSS Animation using % to specify rate of color change */
+
+.percent {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+
+/* Using CSS Animation to change both
+the color and position of an object */
+
+.position {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+
+
+/* CSS Tooltip */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+/* CSS Styling Images */
+
+/* rounded image */
+.img1 {
+  border-radius: 8px;
+}
+
+
+/* circled image */
+.img2 {
+  border-radius: 50%;
+}
+
+
+
+/* pagination */
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active)
+ {background-color: #ddd;}
+
+
+
+/* CSS Multiple Columns */
+
+.newspaper {
+  column-count: 3;
+  column-gap:  40px;
+  column-rule-style:solid;
+}
+
+
+
+
+
+
+
+/* Navigation Bar Dropdown */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid white;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-bottom: 1px solid red;
+}
+
+.dropdown-content a:hover {background-color: 
+  #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+/* Subnav/dropdown menu inside a Navigation Bar */
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
+
